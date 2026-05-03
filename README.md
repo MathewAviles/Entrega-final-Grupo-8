@@ -52,7 +52,8 @@ Las estrategias que se pueden implementar para escalar la API con muchos usuario
 
 ## 📄 Trabajo Practico 2
 
-link: https://github.com/PJSA0127/Parte-2-Web-Scrapping
+link Parte 1: https://github.com/PJSA0127/Parte-1-Construccion-del-API
+link Parte 2: https://github.com/PJSA0127/Parte-2-Web-Scrapping
 
 
 ### 1) Abuso del sistema para envío masivo de correos (spam)
