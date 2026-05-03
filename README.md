@@ -52,13 +52,14 @@ Las estrategias que se pueden implementar para escalar la API con muchos usuario
 
 ## 📄 Trabajo Practico 2
 
-## 🔗 Links del Proyecto
+### 🔗 Links del Proyecto
 
 - 📌 Parte 1: https://github.com/PJSA0127/Parte-1-Construccion-del-API
 - 🌐 Parte 2: https://github.com/PJSA0127/Parte-2-Web-Scrapping
 
+### 📄 Respuestas a la retroalimentación
 
-### 1) Abuso del sistema para envío masivo de correos (spam)
+#### 1) Abuso del sistema para envío masivo de correos (spam)
 
 Un atacante podría automatizar solicitudes al sistema para enviar grandes volúmenes de correos en poco tiempo, utilizando scripts o bots. Esto convertiría el sistema en una herramienta de spam.
 
@@ -79,7 +80,7 @@ Las consecuencias incluyen:
 
 ---
 
-### 2) Defensa contra múltiples procesos de scraping concurrentes
+#### 2) Defensa contra múltiples procesos de scraping concurrentes
 
 Un atacante podría lanzar múltiples procesos de scraping simultáneamente, saturando los recursos del servidor (CPU, memoria y red), lo que puede provocar lentitud o caída total del sistema (denegación de servicio).
 
