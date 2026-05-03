@@ -1,6 +1,6 @@
 Entrega final prueba práctica
 
-Integrantes:Mathew Avilés
+Integrantes:Mathew Avilés, Jorge Brito
 
 
 Trabajo Práctico 1 
@@ -45,3 +45,45 @@ Las estrategias que se pueden implementar para escalar la API con muchos usuario
     Diseñar la API de forma stateless para facilitar el escalado horizontal
     Optimizar consultas a base de datos y usar réplicas cuando sea necesario
     Implementar colas (como RabbitMQ o Celery) para procesos en segundo plano
+
+    ---
+
+## 📄 Trabajo Practico 2
+link: https://github.com/PJSA0127/Parte-2-Web-Scrapping
+
+### 1) Abuso del sistema para envío masivo de correos (spam)
+
+Un atacante podría automatizar solicitudes al sistema para enviar grandes volúmenes de correos en poco tiempo, utilizando scripts o bots. Esto convertiría el sistema en una herramienta de spam.
+
+Las consecuencias incluyen:
+
+- Inclusión del servidor en listas negras (blacklist)
+- Bloqueo de correos legítimos
+- Consumo excesivo de recursos (CPU, memoria y red)
+- Degradación o caída del servicio
+
+**Medidas de mitigación:**
+
+- Autenticación obligatoria
+- Rate limiting por usuario o IP
+- Validación de contenido y destinatarios
+- Uso de CAPTCHA
+- Monitoreo de actividad sospechosa
+
+---
+
+### 2) Defensa contra múltiples procesos de scraping concurrentes
+
+Un atacante podría lanzar múltiples procesos de scraping simultáneamente, saturando los recursos del servidor (CPU, memoria y red), lo que puede provocar lentitud o caída total del sistema (denegación de servicio).
+
+El impacto principal es la pérdida de disponibilidad del sistema para usuarios legítimos.
+
+**Medidas de prevención:**
+
+- Limitar la cantidad de procesos concurrentes
+- Implementar rate limiting
+- Uso de colas de tareas (Celery o Redis)
+- Autenticación y control de acceso
+- Monitoreo y alertas del sistema
+
+---
