@@ -1,6 +1,6 @@
 # 📘 Entrega Final - Prueba Práctica
 
-## 👥 Integrantes: Mathew Avilés, Jorge Brito
+## 👥 Integrantes: Mathew Avilés, Jorge Brito, Paulo Solis
 
 
 ## 🔗 Trabajo Práctico 1
@@ -97,11 +97,14 @@ El impacto principal es la pérdida de disponibilidad del sistema para usuarios 
 ---
 
 
-Trabajo Práctico 3 
+## 📄 Trabajo Practico 3
+
+### 🔗 Links del Proyecto
 link: https://github.com/MathewAviles/trabajo_practico_3
 
-Preguntas:
-1. Considerando que el modelo de regresión lineal confirma una relación entre ranking y puntos, ¿cómo rediseñarías este proyecto para que genere valor real en la toma de decisiones deportivas, teniendo en cuenta que el ranking FIFA es en sí mismo una transformación de los puntos y no una variable independiente real?
+### 📄 Respuestas a la retroalimentación
+
+#### 1) Considerando que el modelo de regresión lineal confirma una relación entre ranking y puntos, ¿cómo rediseñarías este proyecto para que genere valor real en la toma de decisiones deportivas, teniendo en cuenta que el ranking FIFA es en sí mismo una transformación de los puntos y no una variable independiente real?
 
 Aunque el modelo de regresión lineal confirma una fuerte relación entre ranking y puntos, este hallazgo tiene un valor predictivo limitado, ya que el ranking FIFA se calcula directamente a partir de los puntos. En otras palabras, no se trata de una verdadera variable independiente, sino de una transformación matemática de la variable objetivo. Predecir puntos usando ranking equivale, en esencia, a redescubrir una fórmula ya existente.
 
