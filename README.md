@@ -1,9 +1,9 @@
-Entrega final prueba práctica
+# 📘 Entrega Final - Prueba Práctica
 
-Integrantes:Mathew Avilés, Jorge Brito
+## 👥 Integrantes: Mathew Avilés, Jorge Brito
 
 
-Trabajo Práctico 1 
+## 🔗 Trabajo Práctico 1
 link: https://github.com/MathewAviles/Trabajo-pr-ctico-1.git
 
 Preguntas:
