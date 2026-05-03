@@ -1,6 +1,9 @@
 Entrega final prueba práctica
 
-Integrantes:Mathew Avilés
+Integrantes:
+    Mathew Avilés
+    Jorge Brito
+    Paulo Solis
 
 
 Trabajo Práctico 1 
@@ -45,3 +48,23 @@ Las estrategias que se pueden implementar para escalar la API con muchos usuario
     Diseñar la API de forma stateless para facilitar el escalado horizontal
     Optimizar consultas a base de datos y usar réplicas cuando sea necesario
     Implementar colas (como RabbitMQ o Celery) para procesos en segundo plano
+
+Trabajo Práctico 3 
+link: https://github.com/MathewAviles/trabajo_practico_3
+
+Preguntas:
+1. Considerando que el modelo de regresión lineal confirma una relación entre ranking y puntos, ¿cómo rediseñarías este proyecto para que genere valor real en la toma de decisiones deportivas, teniendo en cuenta que el ranking FIFA es en sí mismo una transformación de los puntos y no una variable independiente real?
+
+Aunque el modelo de regresión lineal confirma una fuerte relación entre ranking y puntos, este hallazgo tiene un valor predictivo limitado, ya que el ranking FIFA se calcula directamente a partir de los puntos. En otras palabras, no se trata de una verdadera variable independiente, sino de una transformación matemática de la variable objetivo. Predecir puntos usando ranking equivale, en esencia, a redescubrir una fórmula ya existente.
+
+Para generar valor real en la toma de decisiones deportivas, el proyecto debería rediseñarse hacia un enfoque predictivo basado en variables que sí influyen en el rendimiento futuro de una selección. Por ejemplo, podrían incorporarse indicadores como resultados recientes, goles anotados y recibidos, rendimiento como local o visitante, fortaleza del rival, evolución histórica y desempeño en torneos oficiales.
+
+Con estas variables, el modelo podría orientarse a problemas mucho más útiles, tales como:
+    Predecir la probabilidad de victoria en un próximo partido.
+    Estimar la cantidad de puntos que un equipo podría sumar en futuras fechas FIFA.
+    Detectar selecciones con potencial de ascenso o riesgo de descenso en el ranking.
+    Identificar factores clave que impactan el rendimiento competitivo.
+
+Además, sería recomendable utilizar modelos más robustos, como Random Forest, XGBoost o redes neuronales, capaces de capturar relaciones no lineales y patrones complejos.
+
+De esta forma, el proyecto evolucionaría desde un ejercicio descriptivo hacia una herramienta analítica de alto valor estratégico, útil para federaciones, cuerpos técnicos y analistas deportivos en la planificación de partidos, convocatorias y objetivos competitivos. El verdadero aporte no está en explicar el ranking actual, sino en anticipar el rendimiento futuro y facilitar decisiones basadas en datos.
