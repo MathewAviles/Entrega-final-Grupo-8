@@ -111,10 +111,10 @@ Aunque el modelo de regresión lineal confirma una fuerte relación entre rankin
 Para generar valor real en la toma de decisiones deportivas, el proyecto debería rediseñarse hacia un enfoque predictivo basado en variables que sí influyen en el rendimiento futuro de una selección. Por ejemplo, podrían incorporarse indicadores como resultados recientes, goles anotados y recibidos, rendimiento como local o visitante, fortaleza del rival, evolución histórica y desempeño en torneos oficiales.
 
 Con estas variables, el modelo podría orientarse a problemas mucho más útiles, tales como:
-    Predecir la probabilidad de victoria en un próximo partido.
-    Estimar la cantidad de puntos que un equipo podría sumar en futuras fechas FIFA.
-    Detectar selecciones con potencial de ascenso o riesgo de descenso en el ranking.
-    Identificar factores clave que impactan el rendimiento competitivo.
+- Predecir la probabilidad de victoria en un próximo partido.
+- Estimar la cantidad de puntos que un equipo podría sumar en futuras fechas FIFA.
+- Detectar selecciones con potencial de ascenso o riesgo de descenso en el ranking.
+- Identificar factores clave que impactan el rendimiento competitivo.
 
 Además, sería recomendable utilizar modelos más robustos, como Random Forest, XGBoost o redes neuronales, capaces de capturar relaciones no lineales y patrones complejos.
 
